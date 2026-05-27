@@ -15,7 +15,7 @@ from scipy.stats import chi2_contingency
 # 1. DATA LOADING & PREPROCESSING
 # ==========================================
 # Load the dataset (low_memory=False suppresses the mixed-type warning)
-df = pd.read_csv('ipl_matches.csv', low_memory=False)
+df = pd.read_csv('data.zip', low_memory=False)
 
 # CRITICAL PREPROCESSING: Remove matches with no winner (Abandoned/No Result)
 # This ensures our win rate calculations are mathematically accurate.
